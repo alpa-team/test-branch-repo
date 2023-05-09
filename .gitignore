@@ -1,0 +1,31 @@
+# ignore everything
+*
+
+
+# except files that has to be in alpa branch repo
+!.git/*
+!.github/*
+!.gitignore
+!.pre-commit-config.yaml
+!README.md
+!LICENSE
+!*.spec
+!*.patch
+
+# packit can have different file names
+!.packit.yaml
+!.packit.yml
+!packit.yaml
+!packit.yml
+
+# same for metadata
+!.metadata.yaml
+!.metadata.yml
+!metadata.yaml
+!metadata.yml
+
+# and same for alpa repo config
+!.alpa.yaml
+!.alpa.yml
+!alpa.yaml
+!alpa.yml
