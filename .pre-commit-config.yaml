@@ -15,3 +15,10 @@ repos:
         args:
           - --branch=main
       - id: trailing-whitespace
+
+  - repo: https://github.com/alpa-team/pre-commit-hooks
+    rev: v1.0
+    hooks:
+      - id: check-necessary-files
+      - id: check-packit-file
+      - id: source0-uses-version-macro
