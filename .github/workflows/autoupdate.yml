@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Autoupdate Alpa repository
-        uses: alpa-team/autoupdate-alpa-repository@main
+        uses: alpa-team/autoupdate-alpa-repo@main
         with:
           email-name: alpa.dev.team@gmail.com
           smtp-address: smtp.gmail.com
