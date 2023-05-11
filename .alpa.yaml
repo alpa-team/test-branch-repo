@@ -5,3 +5,4 @@ copr_repo: alpa
 
 targets:
   - fedora-rawhide
+  - fedora-37
