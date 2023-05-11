@@ -5,7 +5,7 @@ actions:
   create-archive:
   - pip install pyalpa
   - bash -c "alpa get-pkg-archive"
-  - bash -c "ls -1 ./uwu-*.tar.gz"
+  - bash -c "ls -1 ./*.tar.gz"
 jobs:
 - job: copr_build
   trigger: pull_request
