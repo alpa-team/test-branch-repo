@@ -4,4 +4,4 @@ copr_owner: alpa-team
 copr_repo: alpa
 
 targets:
-  fedora-rawhide
+  - fedora-rawhide
