@@ -1,0 +1,23 @@
+name: Autoupdate Alpa repository
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Autoupdate Alpa repository
+        uses: alpa-team/autoupdate-alpa-repository@main
+        with:
+          email-name: alpa.dev.team@gmail.com
+          smtp-address: smtp.gmail.com
+          email-password: ${{ secrets.ALPA_MAIL_BOT_PASSWORD }}
+          debug: true
