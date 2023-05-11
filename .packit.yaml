@@ -11,7 +11,6 @@ jobs:
   trigger: pull_request
   targets: &id001
   - fedora-rawhide-x86_64
-  - fedora-37-x86_64
   owner: alpa-team
   project: alpa-pull-requests
 - job: copr_build
