@@ -2,6 +2,7 @@
 repo_type: branch
 copr_owner: alpa-team
 copr_repo: alpa
+allow_foreign_contributing: true
 
 targets:
   - fedora-rawhide
