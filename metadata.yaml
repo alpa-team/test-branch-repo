@@ -1,0 +1,12 @@
+---
+autoupdate:
+  upstream_pkg_name: packitos
+  anytia_backend: pypi
+
+  targets_notify_on_fail:
+    - fedora-rawhide
+
+maintainers:
+  - user:
+      nick: alpa-bot
+      email: alpa.dev.team@gmail.com
