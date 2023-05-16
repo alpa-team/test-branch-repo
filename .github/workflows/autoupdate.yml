@@ -1,8 +1,9 @@
 name: Autoupdate Alpa repository
 
 on:
-  issues:
-    types: [opened]
+  schedule:
+    # runs every 5 days
+    - cron: "0 0 */5 * *"
 
 jobs:
   update:
