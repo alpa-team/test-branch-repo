@@ -1,5 +1,5 @@
 Name:           uwu
-Version:        0.22.0
+Version:        0.28.0
 Release:        1%{?dist}
 Summary:        Testing upstream program for test-repo
 
